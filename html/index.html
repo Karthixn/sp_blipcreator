@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Blip Creator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="display: none;">
+  <div class="container">
+    <h1 class="title">🗺️ Blip Creator</h1>
+    <input id="label" placeholder="Enter Blip Name" />
+    <input id="sprite" type="number" placeholder="Sprite ID (e.g. 60)" />
+    <input id="color" type="number" placeholder="Color ID (e.g. 3)" />
+    <input id="scale" type="number" step="0.1" placeholder="Scale (e.g. 0.8)" />
+    <div class="button-group">
+      <button class="create" onclick="submit()">✅ Create</button>
+      <button class="cancel" onclick="closeUI()">❌ Cancel</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
